@@ -3,7 +3,7 @@ const express = require('express'),
 const app = express();
 
 mongoose
-	.connect('mongodb+srv://admin:admin@cluster0.25nlq3g.mongodb.net/?retryWrites=true&w=majority')
+	.connect('mongodb+srv://admin:admin@cluster0.zzfeg7e.mongodb.net/?retryWrites=true&w=majority')
 	.then(() => console.log('DB Connected!'))
 	.catch((error) => console.log(error));
 
